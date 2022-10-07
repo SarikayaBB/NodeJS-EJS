@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.set('view engine','ejs');
 
 app.get("/", function (req, res) {
-  res.render("index.ejs",{buttonBaslik:"BBB"});
+  res.render("index.ejs",{buttonBaslik:'Bilo'});
 });
 
 app.post("/", function (req, res) {});
